@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: 'https://artisans-corner-backend-wgfm.onrender.com/api',
 });
 
 // Attach JWT token to all outgoing requests if user is logged in
